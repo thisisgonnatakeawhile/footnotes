@@ -1,5 +1,5 @@
 {
-  "name": "footnotes",
+  "name": "hcblog",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -282,10 +282,10 @@
   "description": "",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/hernancanedo/blog.git"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/hernancanedo/blog/issues"
   },
-  "homepage": ""
+  "homepage": "https://github.com/hernancanedo/blog#readme"
 }
