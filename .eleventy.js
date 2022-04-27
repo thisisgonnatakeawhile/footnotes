@@ -4,7 +4,8 @@ const markdownIt = require("markdown-it");
 const md = markdownIt({
     html: true,
     linkify: true,
-  });
+  })
+  .use(require('markdown-it-footnote'));
 
 module.exports = function (eleventyConfig){
     eleventyConfig.addPlugin(footnotes, { /* … */ });
